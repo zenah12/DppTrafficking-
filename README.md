@@ -13,7 +13,7 @@ These scripts are written in C++ and are used to numerically solve Eq. S1-S5 pro
 
 The scripts can be compiled in xCode or similar interface or by using the terminal window.
 
-The output of each run is a file that includes Tth (defined in Global.hpp) rows that summarize specific sets of parameters together with the corresponding quality of fit to the experimental FRAP data as calculated by the R^2.  
+The output of each run is a file that includes Tth (defined in Global.hpp) rows each containing one set of parameters together with the corresponding quality of fit to the experimental FRAP data as calculated by the R^2.  
 
 For the fitting routine described in the manuscript, we use HPC to run the scripts repeatedly until 3 10^7 parameter sets have been explored. The output files are then used to obtain the parameter sets that provde sattisfactory fits to the data (see below).
 
@@ -21,3 +21,5 @@ For the fitting routine described in the manuscript, we use HPC to run the scrip
 *********************
 Posteriors something
 *********************
+This folder contains the data obrained from the FRAP numerics described above, and the Walfram Mathematica scripts used to analyse them. Note that the simulated parameter sets have been reduced to only those that provide an R^2 above 0.7 for ease of handling the data (we sampled 10^7 parameter sets for each experimental condition). The Mathematica notebook reads the data and reduces the initial data set to values that fall within an appropriately high value   
+
