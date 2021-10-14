@@ -18,8 +18,8 @@ The output of each run is a file that includes Tth (defined in Global.hpp) rows 
 For the fitting routine described in the manuscript, we use HPC to run the scripts repeatedly until 3 10^7 parameter sets have been smapled. The output files are then used to obtain the parameter sets that provde sattisfactory fits to the data (see below).
 
 
-*********************
-Posteriors something
-*********************
+****************************
+Posteriors_from_FRAP_and_rho
+****************************
 This folder contains the Wolfram Mathematica scripts used to analyse data obrained from the FRAP numerics described above for the three conditions discussed in the main text (large discs, L=144um; small discs L=80um; pentagone mutant discs). The data sets can be accessed sepparately HERE. Note that the simulated parameter sets have been reduced to only those that provide an R^2 above 0.7 for ease of handling the data (we sampled 3 10^7 parameter sets for each experimental condition). The Wolfram Mathematica notebook reads the data and reduces the initial data set to values that fall within an appropriately high value of R^2, are within the measured CI for the extracellular fraction, and have endocytosis rates below 0.1s^-1, as explained in the main text and Supplementary material Section 2.5.2.    
 
