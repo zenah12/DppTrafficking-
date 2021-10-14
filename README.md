@@ -7,7 +7,7 @@ Nanobody_Fits
 This folder contains the data for the nanobody experitment for the three conditions discussed in the main text (large discs, L=144um; small discs L=80um; pentagone mutant discs). The code to fit the data to the theoretical curve derived in Section x.y.z in the Supplementary material is provided in the Wolfram Mathematica notebooks contained in the folder (one notebook for each condition provided). The code reads in the experimental data, defines the fit function and simultaneously fits the data from independent experiments to the theoretical function using a non linear model fit function. This yields fitted values for A, B and p and their confidences as discussed in Section 2.2.1 in the Supplementary material. Those fitted values are used to obtain estimates for kr, kN and ko as discussed in the main text and Supplementary material Section 2.2.1.
 
 *****************
-FRAP numerics
+FRAP_numerics_ABC
 *****************
 These scripts are written in C/C++ and are used to numerically solve Eq. S1-S5 provided in the Supplementary material attached to Romanova-Michaelides et al, under the conditions of the FRAP experiment. The parameter values used to perform the numerical calculations are chosen in ranges that are defined in the Supplementary Material attached to Romanova-Michaelides et al.
 
